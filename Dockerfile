@@ -6,7 +6,7 @@
 # =============================================================================
 FROM mysql:latest
 
-MAINTAINER Erik Bogaerts <ebo@naqoda.com>
+MAINTAINER Naqoda <info@naqoda.com>
 
 RUN { \
     echo '[mysqld]'; \
