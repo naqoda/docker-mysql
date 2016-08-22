@@ -12,7 +12,6 @@ RUN { \
     echo '[mysqld]'; \
     echo 'sql_mode = NO_ENGINE_SUBSTITUTION'; \
     echo 'default-storage-engine = innodb'; \
-    echo 'innodb_force_recovery = 1'; \
 } > /etc/mysql/conf.d/custom.cnf
 
 RUN { \
